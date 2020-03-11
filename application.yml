@@ -1,13 +1,13 @@
 spring:
   profiles:
     active:
-    - dev
-
+      - dev
+---
 spring:
   profiles: dev
-  application: 
+  application:
     name: mircoservicecloud-config-leo-dev
-
+---
 spring:
   profiles: test
   application:
