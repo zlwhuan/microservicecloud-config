@@ -38,8 +38,8 @@ eureka:
 info:
   app.name: leo-springcloud
   comany.name: www.zhaoliwen.cn
-  build.artifactId: @project.artifactId@
-  build.version: @project.version@
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
   ---
   server:
     port: 8001
@@ -76,5 +76,5 @@ info:
   info:
     app.name: leo-springcloud
     comany.name: www.zhaoliwen.cn
-    build.artifactId: @project.artifactId@
-    build.version: @project.version@
+    build.artifactId: $project.artifactId$
+    build.version: $project.version$
